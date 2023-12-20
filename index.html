@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+    <title>Poker</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Poker</h1>
+
+        <form id="cartesForm">
+            <label for="cartesInput">Cartes :</label>
+            <input type="text" id="cartesInput" placeholder="2t , 5d , 6c , 13p" required>
+            <button type="button" onclick="evaluerCartes()">Évaluer</button>
+        </form>
+
+        <p id="resultatCombinaison"></p>
+    </div>
+</body>
+
+</html>
